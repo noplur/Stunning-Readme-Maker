@@ -114,10 +114,10 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) => {
+const writeToFile(fileName, data) => {
     return `
     # ${title}
-    ## by${ name}
+    ## by ${name}
     ### Table of Contents
     ##### 1. [ Description. ](#desc)
     ##### 2. [ Installation. ](#install)
@@ -150,7 +150,16 @@ function writeToFile(fileName, data) => {
 };
 
 // TODO: Create a function to initialize app
-function init() {}
+init()
+    .then(writeToFile) => {
+        const pageMD = generatePage(readmeData);
+
+        fs.writeFile('./README.md'), pageMD, err => {
+            if (err) throw new Error(err);
+
+            console.log('Page created! Check out READEME.md in this directory to see it!');
+          };
+        }
 
 // Function call to initialize app
 init();
