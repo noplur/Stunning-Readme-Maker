@@ -101,8 +101,8 @@ const questions = () => {
     type: 'input',
     name: 'email',
     message: 'Enter your email address (Required)',
-    validate: githubLink => {
-      if (githubLink) {
+    validate: emailInput => {
+      if (emailInput) {
         return true;
       } else {
         console.log('Please enter your email address!');
@@ -114,7 +114,40 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) => {
+    return `
+    # ${title}
+    ## by${ name}
+    ### Table of Contents
+    ##### 1. [ Description. ](#desc)
+    ##### 2. [ Installation. ](#install)
+    ##### 3. [ Usage. ](#usage)
+    ##### 4. [ Description. ](#contr) 
+    ##### 5. [ Tests. ](#tests)
+    ##### 6. [ Licenses. ](#license) 
+    ##### 7. [ GitHub Repository Link. ](#githublink) 
+    ##### 8. [ Website Link. ](#weblink)
+    ##### 9. [ Questions and Contact. ](#contact)
+    ### <a name="desc"</a> 1. Description
+    #### ${description}
+    ### <a name="install"</a> 2. Installation
+    #### The steps required to install the project include: ${installation}
+    ### <a name="usage"</a> 3. Usage
+    #### Examples and instructions for use include: ${usage}
+    ### <a name="contr"</a> 4. Contribution
+    #### Contribution guidelines include: ${contribution}
+    ### <a name="tests"</a> 5. Tests
+    #### Automated tests for this system can be run by: ${tests}
+    ### <a name="license"</a> 6. Licenses
+    #### This application includes the following license(s): ${license}
+    ### <a name="githublink"</a> 7. GitHub Link
+    #### The ${github} GitHub repository for ${title} can be viewed here: ${githublink}
+    ### <a name="weblink"</a> 8. Website Link
+    #### The link to the website of ${title} can be viewed here: ${description}
+    ### <a name="contact"</a> 9. Questions and Contact
+    ### <a name="install"</a>If you have additional questions, please email ${name} at: ${email}  
+    `;
+};
 
 // TODO: Create a function to initialize app
 function init() {}
