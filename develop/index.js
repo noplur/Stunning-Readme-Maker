@@ -22,10 +22,10 @@ const questions = () => {
 },
 {
     type: 'input',
-    name: 'name',
+    name: 'userName',
     message: 'Please enter your name? (Required)',
-    validate: nameInput => {
-        if (nameInput) {
+    validate: userNameInput => {
+        if (userNameInput) {
           return true;
         } else {
           console.log('Please enter your name!');
@@ -117,7 +117,7 @@ const questions = () => {
 const writeToFile(fileName, data) => {
     return `
     # ${title}
-    ## by ${name}
+    ## by ${userName}
     ### Table of Contents
     ##### 1. [ Description. ](#desc)
     ##### 2. [ Installation. ](#install)
@@ -152,12 +152,12 @@ const writeToFile(fileName, data) => {
 // TODO: Create a function to initialize app
 init()
     .then(writeToFile) => {
-        const pageMD = generatePage(readmeData);
+        const pageMD = generateMarkdown(data);
 
         fs.writeFile('./README.md'), pageMD, err => {
             if (err) throw new Error(err);
 
-            console.log('Page created! Check out READEME.md in this directory to see it!');
+            console.log('Page created! Check out README.md in this directory to see it!');
           };
         }
 
