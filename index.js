@@ -81,7 +81,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Does this application have a license?',
-        choices: [{name:'MIT', value: 'MIT',}, {name: 'GPL 3.0', value: 'GPL_3.0'}, {name:'none', value: null}]
+        choices: [{name:'MIT', value: 'MIT',}, {name: 'GPL 3.0', value: 'GPL_3.0'}, {name: 'Apache-2.0', value: 'Apache-2.0'}, {name: 'ISC', value: 'ISC'}, {name: 'NTP', value: 'NTP'}, {name: 'Aladdin', value: 'Aladdin'}, {name:'none', value: null}]
 },
 {
     type: 'input',
