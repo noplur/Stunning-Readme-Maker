@@ -12,7 +12,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license) {
-    return `##### 9. [ Licenses. ](#license)` 
+    return `##### 7. [License](#License)` 
   } else {
     return ''
   }
@@ -22,8 +22,8 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license) {
-    return `### <a name="license"</a> 9. Licenses
-    #### This application includes the following license(s): ${license}` 
+    return `## ***License***
+    This application includes the following license(s): ${license}` 
   } else {
     return ''
   }
@@ -33,33 +33,28 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
-## by ${data.userName}
-### Table of Contents
-##### 1. [ Description. ](#desc)
-##### 2. [ Installation. ](#install)
-##### 3. [ Usage. ](#usage)
-##### 4. [ Contributions. ](#contr) 
-##### 5. [ Tests. ](#tests)
-##### 6. [ GitHub Repository Link. ](#githublink) 
-##### 7. [ Website Link. ](#weblink)
-##### 8. [ Questions and Contact. ](#contact)
+#### by ${data.userName}
+### **Table of Contents**
+##### 1. [Description](#Description)
+##### 2. [Installation](#Installation)
+##### 3. [Usage](#Usage)
+##### 4. [Contributing](#Contributing) 
+##### 5. [Tests](#Tests)
+##### 6. [Questions](#Questions)
 ${renderLicenseLink(data.license)}
-### <a name="desc"</a> 1. Description
+## ***Description***
 #### ${data.description}
-### <a name="install"</a> 2. Installation
+## ***Installation***
 #### The steps required to install the project include: ${data.installation}
-### <a name="usage"</a> 3. Usage
+## ***Usage***
 #### Examples and instructions for use include: ${data.usage}
-### <a name="contr"</a> 4. Contribution
-#### Contribution guidelines include: ${data.contribution}
-### <a name="tests"</a> 5. Tests
+## ***Contributing***
+#### Contributing guidelines include: ${data.contribution}
+## ***Tests***
 #### Automated tests for this system can be run by: ${data.tests}
-### <a name="githublink"</a> 7. GitHub Link
-#### The ${data.github} GitHub repository for ${data.title} can be viewed here: ${data.githublink}
-### <a name="weblink"</a> 8. Website Link
-#### The link to the website of ${data.title} can be viewed here: ${data.description}
-### <a name="contact"</a> 9. Questions and Contact
-### <a name="install"</a>If you have additional questions, please email ${data.userName} at: ${data.email}  
+## ***Questions***
+#### If you have additional questions, please email ${data.userName} at: <${data.email}>
+#### More work by ${data.userName} can be viewed at the [${data.github} GitHub repository](${data.githublink})
 ${renderLicenseSection(data.license)}
 `;
 }

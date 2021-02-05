@@ -1,3 +1,15 @@
+// PLACETEXT FOR PROMPTS
+// 1) Aaron's README Generator 2021
+// 2) Aaron Rosenblatt
+// 3) ------ Insert description here --------
+// 4) Install as you would normally npm install
+// 5) Enter the prompts as instructed. When completed, a README file will be generated. 
+// 6) 1) Fork the repo on GitHub. 2) Clone the project to your own machine. 3) Commit changes to your own branch. 4. Push your work back up to your fork.
+// 7) Test the README by answering the prompts in order.
+// 9) noplur
+// 10) https://github.com/noplur
+// 11) aaronrosenblattphoto@gmail.com
+
 // TODO: Include packages needed for this application
 
 const fs = require('fs');
@@ -48,12 +60,12 @@ const questions = [
 {
         type: 'input',
         name: 'installation',
-        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.'
+        message: 'What are the steps required to install your project?'
 },
 {
         type: 'input',
         name: 'usage',
-        message: 'Please provide examples and instructions for use'
+        message: 'Please provide examples of usage instructions'
 },
 {
         type: 'input',
@@ -63,7 +75,7 @@ const questions = [
 {
         type: 'input',
         name: 'tests',
-        message: 'Explain how to run the automated tests for this system:'
+        message: 'Please provide test instructions for this system:'
 },
 {
         type: 'list',
