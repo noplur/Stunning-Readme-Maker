@@ -43,7 +43,7 @@ ${renderLicenseBadge(data.license)}
 ##### 6. [ GitHub Repository Link. ](#githublink) 
 ##### 7. [ Website Link. ](#weblink)
 ##### 8. [ Questions and Contact. ](#contact)
-${renderLicenseLink(license)}
+${renderLicenseLink(data.license)}
 ### <a name="desc"</a> 1. Description
 #### ${data.description}
 ### <a name="install"</a> 2. Installation
@@ -60,7 +60,7 @@ ${renderLicenseLink(license)}
 #### The link to the website of ${data.title} can be viewed here: ${data.description}
 ### <a name="contact"</a> 9. Questions and Contact
 ### <a name="install"</a>If you have additional questions, please email ${data.userName} at: ${data.email}  
-${renderLicenseSection(license)}
+${renderLicenseSection(data.license)}
 `;
 }
 
