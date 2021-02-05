@@ -23,7 +23,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license) {
     return `## ***License***
-    This application includes the following license(s): ${license}` 
+    This application includes the following license: ${license}` 
   } else {
     return ''
   }

@@ -1,5 +1,5 @@
 # Aaron's README Generator 2021
-![GitHub license](https://img.shields.io/badge/license-GPL_3.0-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-Aladdin-brightgreen.svg?style=plastic&logo=appveyor)
 #### by Aaron Rosenblatt
 ### **Table of Contents**
 ##### 1. [Description](#Description)
@@ -10,7 +10,7 @@
 ##### 6. [Questions](#Questions)
 ##### 7. [License](#License)
 ## ***Description***
-#### ------ Insert description here --------
+#### Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate porro, dolore nisi atque tenetur vitae eligendi molestias officia exercitationem qui necessitatibus ipsa adipisci illo rerum quis dolor delectus impedit optio ut est excepturi libero eveniet. Blanditiis.
 ## ***Installation***
 #### The steps required to install the project include: Install as you would normally npm install
 ## ***Usage***
@@ -23,4 +23,4 @@
 #### If you have additional questions, please email Aaron Rosenblatt at: <aaronrosenblattphoto@gmail.com>
 #### More work by Aaron Rosenblatt can be viewed at the [noplur GitHub repository](https://github.com/noplur)
 ## ***License***
-    This application includes the following license(s): GPL_3.0
+    This application includes the following license: Aladdin
