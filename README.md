@@ -7,5 +7,5 @@
 ### The Stunning README Maker walkthrough video can be viewed here: https://drive.google.com/file/d/1y8Hv-qFl89nngVw-nlNeZJfG1eSdygb_/preview
 
 ### Here are a few screenshots of a sample README using the The Stunning README Maker:
-### ![](./images/readme-generator 01.jpg)
-### ![](./images/readme-generator 02.jpg)
+### ![](./images/readme-generator-01.jpg)
+### ![](./images/readme-generator-02.jpg)
