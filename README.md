@@ -1,26 +1,11 @@
-# Aaron's README Generator 2021
-![GitHub license](https://img.shields.io/badge/license-Aladdin-brightgreen.svg?style=plastic&logo=appveyor)
-#### by Aaron Rosenblatt
-### **Table of Contents**
-##### 1. [Description](#Description)
-##### 2. [Installation](#Installation)
-##### 3. [Usage](#Usage)
-##### 4. [Contributing](#Contributing) 
-##### 5. [Tests](#Tests)
-##### 6. [Questions](#Questions)
-##### 7. [License](#License)
-## ***Description***
-#### Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate porro, dolore nisi atque tenetur vitae eligendi molestias officia exercitationem qui necessitatibus ipsa adipisci illo rerum quis dolor delectus impedit optio ut est excepturi libero eveniet. Blanditiis.
-## ***Installation***
-#### The steps required to install the project include: Install as you would normally npm install
-## ***Usage***
-#### Examples and instructions for use include: Enter the prompts as instructed. When completed, a README file will be generated.
-## ***Contributing***
-#### Contributing guidelines include: 1) Fork the repo on GitHub. 2) Clone the project to your own machine. 3) Commit changes to your own branch. 4. Push your work back up to your fork.
-## ***Tests***
-#### Automated tests for this system can be run by: Test the README by answering the prompts in order.
-## ***Questions***
-#### If you have additional questions, please email Aaron Rosenblatt at: <aaronrosenblattphoto@gmail.com>
-#### More work by Aaron Rosenblatt can be viewed at the [noplur GitHub repository](https://github.com/noplur)
-## ***License***
-    This application includes the following license: Aladdin
+# Stunning README Maker
+## by Aaron Rosenblatt
+#### I wrote Node.js commands combined with JavaScript to make a professional README generator. When the command "node index.js" is entered into Terminal, a series of prompts appears for the user to answer. The command-line application then incorporates the responses to make the high-quality README so the user can spend more time working on their project. The README will include the project title, the user's name, and the following sections: Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions. When a description, installation instructions, contribution guidelines, and test instructions are entered in the command-line, the information will be added to the corresponding section of the README. The user can also choose a license for the application from a list of options. The badge for that license will be displayed towards the top of the README and a section titled License will explain which license the application is covered under. A Questions section will provide the user's GitHub username with a link to that Github profile and an email address so the user can reach the project maker with further questions. The GitHub username, GitHub profile link and the email address will be provided in the command-line. Finally, when the user clicks on a link in the Table of Contents the user will be taken to that section. 
+
+### The GitHub repository for the Stunning README Maker can be viewed here: https://github.com/noplur/Stunning-Readme-Maker/tree/main
+
+### The Stunning README Maker walkthrough video can be viewed here: https://drive.google.com/file/d/1y8Hv-qFl89nngVw-nlNeZJfG1eSdygb_/preview
+
+### Here are a few screenshots of a sample README using the The Stunning README Maker:
+### ![](./images/readme-generator 01.jpg)
+### ![](./images/readme-generator 02.jpg)
